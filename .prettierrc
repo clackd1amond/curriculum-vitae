@@ -1,0 +1,11 @@
+{
+	"singleQuote": false,
+	"useTabs": true,
+	"tabWidth": 2,
+	"printWidth": 120,
+	"trailingComma": "none",
+	"proseWrap": "never",
+	"arrowParens": "avoid",
+	"plugins": ["prettier-plugin-tailwindcss"],
+	"tailwindAttributes": ["class", "className", "mainClassName", "splitLevelClassName", "elementLevelClassName"]
+}

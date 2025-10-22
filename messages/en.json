@@ -1,0 +1,191 @@
+{
+	"meta": {
+		"title": "Yevhen Besiedovskyi — Web & App Developer | Next.js, React Native, WordPress",
+		"description": "Passionate full-stack developer creating fast, elegant, and scalable web and mobile apps using Next.js, React Native, and WordPress. Focused on clean design and smooth user experience."
+	},
+	"hero": {
+		"title": "Yevhen Besiedovskyi",
+		"description": "Enthusiastic developer creating elegant, fast, and scalable digital products using Next.js, React Native or WordPress. I focus on building smooth, user-friendly experiences and connecting them with powerful backend systems.",
+		"rotating": {
+			"frontend": "Frontend",
+			"backend": "Backend",
+			"fullstack": "Full-stack",
+			"mobile": "Mobile",
+			"ui": "UI",
+			"nextjs": "Next.js",
+			"react": "React",
+			"react-native": "React Native",
+			"typescript": "TypeScript",
+			"wordpress": "WordPress",
+			"opencart": "OpenCart"
+		},
+		"developer": "Developer"
+	},
+	"contacts": {
+		"position": "Main developer and co-founder @ <link>malovnycha.com</link>",
+		"location": "Kyiv, Ukraine",
+		"languages": "Ukrainian (native), English (fluent)",
+		"email": "<link>yevhen@malovnycha.com</link>",
+		"website": "<link>malovnycha.com</link>",
+		"resume": "<link>download CV file</link>"
+	},
+	"stack": {
+		"title": "Stack"
+	},
+	"projects": {
+		"title": "Projects",
+		"visit": "Visit website",
+		"items": {
+			"driversway": {
+				"title": "Driver's Way",
+				"description": "Driver's Way is an online service for ordering official and souvenir license plates with fast production and several delivery options. A fast, intuitive platform with responsive design and a plate builder."
+			},
+			"thevictory": {
+				"title": "See The Victory",
+				"description": "The See the Victory Charitable Foundation is a non-profit organization that helps veterans with partial or complete vision loss. The website features a system for one-time and regular donations, with a focus on ease of use and user trust. The design incorporates accessibility features to improve the user experience for people with vision impairment."
+			},
+			"samurai": {
+				"title": "Last Samurai",
+				"description": "Last Samurai is the personal website of Vladyslav Yeshchenko, a veteran of the russian-Ukrainian war with the call sign “Samurai”. On the website, you can learn more about him, his mission, and events, as well as invite Vladyslav to give a lecture or speech."
+			},
+			"chameleonok": {
+				"title": "ChameleonOK",
+				"description": "ChameleonOK is an online store offering advanced ocular prostheses and related services. The emphasis is on elegant design, customer trust, and a straightforward ordering process. The website's color palette is sufficiently contrasting to make it easier to use for people with impaired vision."
+			},
+			"bes": {
+				"title": "Business Education Solutions",
+				"description": "Business Education Solutions is a business education hub that offers courses for small and medium-sized enterprises in Ukraine. It features a flexible course structure, modern corporate style, convenient class schedule, and an intuitive admin panel for content management."
+			},
+			"rely": {
+				"title": "Rely",
+				"description": "Rely is a fundraising and support platform dedicated to the rehabilitation and prosthetics of soldiers wounded in combat. The system features transparent donation mechanisms and a modern design."
+			},
+			"malovnycha": {
+				"title": "Malovnycha",
+				"description": "Malovnycha is a web studio that I co-founded. It creates modern, fast, and responsive websites and applications for clients using Next.js, React, React Native, and modern backend tools, focusing on the convenience of clients and their users."
+			},
+			"kaiser": {
+				"title": "Kaiser",
+				"description": "Kaiser.com.ua is the official online store of the German home appliance brand. I've ensured stable website performance, fast loading, and easy navigation for users."
+			},
+			"concept": {
+				"title": "My Concept",
+				"description": "My Concept is the official website of the Czech brand Concept in Ukraine. I optimized the online store on WordPress with WooCommerce for fast performance and user-friendly experience."
+			}
+		}
+	},
+	"experience": {
+		"title": "Experience",
+		"items": {
+			"malovnycha": {
+				"title": "Web-studio “Malovnycha”",
+				"items": {
+					"full-stack-developer": {
+						"title": "Full-Stack Developer",
+						"description": "I design and develop websites, web applications, mobile applications and custom CRM systems for clients, using Next.js, React, React Native, and modern backend tools. I focus on building reliable, performant, and maintainable digital products.",
+						"date": "2024 - now"
+					},
+					"director": {
+						"title": "Director & Co-Founder",
+						"description": "Along with partners, I conduct client meetings, discuss project goals and technical solutions, and coordinate the entire development process - from the initial idea to delivery. Responsible for communication, planning, and ensuring smooth collaboration between the team and clients.",
+						"date": "2024 - now"
+					}
+				}
+			},
+			"vip-media": {
+				"title": "VIP-Media Ltd.",
+				"items": {
+					"frontend-developer-full-time": {
+						"title": "Frontend Developer",
+						"description": "Full-Time. Created and maintained multiple corporate websites and landing pages using React and modern JavaScript tools, ensuring high performance and clean UI/UX.",
+						"date": "2023 - 2025"
+					},
+					"frontend-developer-part-time": {
+						"title": "Frontend Developer",
+						"description": "Part-Time. Supported existing company websites, implemented new features, and improved SEO and performance.",
+						"date": "2021 - 2023"
+					},
+					"dev-ops-part-time": {
+						"title": "DevOps Engineer",
+						"description": "Part-Time. Set up and maintained client services and hosting environments. Configured servers, deployment pipelines, and system monitoring tools to ensure uptime and security.",
+						"date": "2021 - 2023"
+					},
+					"dev-ops-full-time": {
+						"title": "DevOps Engineer",
+						"description": "Full-Time. Managed infrastructure, automated deployment workflows, and maintained scalable server environments for clients’ online services.",
+						"date": "2019 - 2021"
+					}
+				}
+			},
+			"kaiser": {
+				"title": "Kaiser TM Ukraine Representation",
+				"items": {
+					"web-developer": {
+						"title": "Web Developer",
+						"description": "Part-Time. Developed and maintained the company’s main website and product pages, implementing design updates and functionality improvements.",
+						"date": "2014 - 2022"
+					},
+					"system-administrator": {
+						"title": "System Administrator",
+						"description": "Part-Time. Supported and maintained the company’s IT infrastructure, local network, and IP telephony systems to ensure stable daily operations.",
+						"date": "2014 - 2020"
+					},
+					"sales-manager": {
+						"title": "Sales Manager",
+						"description": "Full-Time. Managed wholesale and retail sales, negotiated with clients, and built long-term relationships with business partners.",
+						"date": "2008 - 2014"
+					}
+				}
+			},
+			"education": {
+				"title": "Education",
+				"items": {
+					"university": {
+						"title": "Kyiv National Linguistic University - Kyiv",
+						"description": "Specialization in philology, focusing on communication, language studies, and translation.",
+						"date": "2007 - 2011"
+					},
+					"middle-school-full": {
+						"title": "Gymnasium “Potential” - Kyiv",
+						"description": "General education institution of II-III levels. Complete secondary education.",
+						"date": "2004 - 2006"
+					},
+					"middle-school": {
+						"title": "Secondary School #268 - Kyiv",
+						"description": "General education institution of I-III levels. Basic secondary education.",
+						"date": "1996 - 2004"
+					}
+				}
+			}
+		}
+	},
+	"certificates": {
+		"title": "Certificates",
+		"hours": "{hours, plural, one {# hour} other {# hours}}",
+		"items": {
+			"udemy-admin-panel": {
+				"title": "Creating an admin panel with React.js + PHP",
+				"subtitle": "Certificate of Completion",
+				"place": "Udemy"
+			},
+			"udemy-react-practical-course": {
+				"title": "React JS. Practical Course 2020 (including Hooks, Classes, Redux)",
+				"subtitle": "Certificate of Completion",
+				"place": "Udemy"
+			},
+			"udemy-complete-javascript-react": {
+				"title": "Complete course on JavaScript + React - from zero to results",
+				"subtitle": "Certificate of Completion",
+				"place": "Udemy"
+			},
+			"udemy-practical-javascript": {
+				"title": "Practical JavaScript (Advanced Level)",
+				"subtitle": "Certificate of Completion",
+				"place": "Udemy"
+			}
+		}
+	},
+	"footer": {
+		"built-by": "Created by <scroll>Yevhen</scroll> - with passion and purpose 🇺🇦"
+	}
+}
