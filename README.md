@@ -84,7 +84,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Feel free to reach out or check my work:
 
-- [**Portfolio**](https://eugene.malovnycha.com)
+- [**Portfolio**](https://yevhen.malovnycha.com)
 - [**GitHub**](https://github.com/clackd1amond)
 - [**LinkedIn**](https://linkedin.com/in/eugene-norm/)
 
