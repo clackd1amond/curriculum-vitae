@@ -1,5 +1,7 @@
 import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { hasLocale, Locale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -66,6 +68,8 @@ export default async function RootLayout({
 				<ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 					<NextIntlClientProvider>{children}</NextIntlClientProvider>
 				</ThemeProvider>
+				<Analytics />
+				<SpeedInsights />
 			</body>
 		</html>
 	);
