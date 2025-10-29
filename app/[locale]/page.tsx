@@ -7,6 +7,7 @@ import HeroSection from "@/components/layout/sections/HeroSection";
 import PrefooterSection from "@/components/layout/sections/PrefooterSection";
 import ProjectsSection from "@/components/layout/sections/ProjectsSection";
 import StackSection from "@/components/layout/sections/StackSection";
+import Background from "@/components/ui/Background";
 import ScrollToTop from "@/components/ui/ScrollToTop";
 import { Locale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
@@ -18,7 +19,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
 	return (
 		<div className="relative min-h-screen font-sans">
-			<div className="light-bg dark:dark-bg fixed inset-0 z-0" />
+			<Background />
 			<ScrollToTop />
 
 			<main className="relative z-10">
