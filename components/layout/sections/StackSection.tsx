@@ -1,3 +1,4 @@
+import { Affinity } from "@/components/stack/Affinity";
 import { AntDesign } from "@/components/stack/AntDesign";
 import { Bun } from "@/components/stack/Bun";
 import { ChatGpt } from "@/components/stack/ChatGpt";
@@ -7,7 +8,6 @@ import { Figma } from "@/components/stack/Figma";
 import { Git } from "@/components/stack/Git";
 import { Illustrator } from "@/components/stack/Illustrator";
 import { JavaScript } from "@/components/stack/JavaScript";
-import { Laravel } from "@/components/stack/Laravel";
 import { MongoDB } from "@/components/stack/MongoDB";
 import { Motion } from "@/components/stack/Motion";
 import { MySQL } from "@/components/stack/MySQL";
@@ -45,7 +45,6 @@ async function StackSection() {
 				<StackItem image={Bun} name="Bun Package Manager" />
 				<StackItem image={Php} name="PHP" />
 				<StackItem image={WordPress} name="WordPress" />
-				<StackItem image={Laravel} name="Laravel" />
 				<StackItem image={AntDesign} name="Ant Design" />
 				<StackItem image={Git} name="Git" />
 				<StackItem image={MySQL} name="MySQL" />
@@ -53,6 +52,7 @@ async function StackSection() {
 				<StackItem image={Convex} name="Convex" />
 				<StackItem image={Supabase} name="Supabase" />
 				<StackItem image={Figma} name="Figma" />
+				<StackItem image={Affinity} name="Affinity" />
 				<StackItem image={Photoshop} name="Adobe Photoshop" />
 				<StackItem image={Illustrator} name="Adobe Illustrator" />
 				<StackItem image={ChatGpt} name="ChatGPT" />

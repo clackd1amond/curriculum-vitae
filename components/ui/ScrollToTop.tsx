@@ -3,12 +3,17 @@
 import { cn } from "@/lib/utils";
 import { ArrowUpIcon } from "lucide-react";
 import { useMotionValueEvent, useScroll } from "motion/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "./Button";
 
 function ScrollToTop() {
 	const [currentScrollY, setCurrentScrollY] = useState(0);
 	const { scrollY } = useScroll();
+	const [isMounted, setIsMounted] = useState(false);
+
+	useEffect(() => {
+		setIsMounted(true);
+	}, []);
 
 	useMotionValueEvent(scrollY, "change", latest => {
 		setCurrentScrollY(latest);
@@ -20,6 +25,10 @@ function ScrollToTop() {
 			behavior: "smooth"
 		});
 	};
+
+	if (!isMounted) {
+		return null;
+	}
 
 	return (
 		<Button
