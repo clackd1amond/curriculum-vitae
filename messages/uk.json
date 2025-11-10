@@ -74,6 +74,23 @@
 			}
 		}
 	},
+	"tools": {
+		"title": "Додаткові навички та інструменти",
+		"items": {
+			"microsoft": {
+				"title": "Microsoft Office",
+				"description": "Впевнене володіння Microsoft Word, Excel та PowerPoint для документації, планування й звітності"
+			},
+			"davinci": {
+				"title": "DaVinci Resolve та Adobe Premiere",
+				"description": "Базовий монтаж відео, кольорокорекція та робота з хромакеєм для контенту й промо-матеріалів"
+			},
+			"trello": {
+				"title": "Trello, Jira та Google Workspace",
+				"description": "Організація завдань, співпраця з командою та оптимізація робочих процесів"
+			}
+		}
+	},
 	"experience": {
 		"title": "Досвід",
 		"items": {

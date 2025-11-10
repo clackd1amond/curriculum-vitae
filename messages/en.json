@@ -74,6 +74,23 @@
 			}
 		}
 	},
+	"tools": {
+		"title": "Additional Skills & Tools",
+		"items": {
+			"microsoft": {
+				"title": "Microsoft Office",
+				"description": "Proficient in Microsoft Word, Excel, and PowerPoint for documentation, planning, and reporting"
+			},
+			"davinci": {
+				"title": "DaVinci Resolve & Adobe Premiere",
+				"description": "Experienced in basic video editing, color correction, and chroma keying for content and promo materials"
+			},
+			"trello": {
+				"title": "Trello, Jira & Google Workspace",
+				"description": "Skilled in task management, collaboration, and workflow organization within teams"
+			}
+		}
+	},
 	"experience": {
 		"title": "Experience",
 		"items": {

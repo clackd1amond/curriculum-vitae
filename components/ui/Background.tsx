@@ -5,7 +5,7 @@ import ColorBends from "./ColorBends";
 
 function Background() {
 	const { resolvedTheme } = useTheme();
-	const colors = resolvedTheme === "dark" ? ["#000046", "#1CB5E0"] : ["#D2B6AD", "#7886C5"];
+	const colors = resolvedTheme === "dark" ? ["#001046", "#00637F"] : ["#D2B6AD", "#7886C5"];
 	return (
 		<div className="fixed inset-0 z-0">
 			<div className="light-bg dark:dark-bg absolute inset-0 z-0" />

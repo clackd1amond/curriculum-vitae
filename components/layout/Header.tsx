@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
-import Avatar from "../ui/Avatar";
 import HeaderBackdrop from "../ui/HeaderBackdrop";
 import LocaleSwitcher from "../ui/LocaleSwitcher";
+import Avatar from "../ui/MainAvatar";
 import MobileNav from "../ui/MobileNav";
 import NavItem from "../ui/NavItem";
 import ThemeSwitcher from "../ui/ThemeSwitcher";

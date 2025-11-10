@@ -7,6 +7,7 @@ import HeroSection from "@/components/layout/sections/HeroSection";
 import PrefooterSection from "@/components/layout/sections/PrefooterSection";
 import ProjectsSection from "@/components/layout/sections/ProjectsSection";
 import StackSection from "@/components/layout/sections/StackSection";
+import ToolsSection from "@/components/layout/sections/ToolsSection";
 import Background from "@/components/ui/Background";
 import ScrollToTop from "@/components/ui/ScrollToTop";
 import { Locale } from "next-intl";
@@ -28,6 +29,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 				<ContactsSection />
 				<StackSection />
 				<ProjectsSection />
+				<ToolsSection />
 				<ExperienceSection />
 				<CertificatesSection />
 				<PrefooterSection />
