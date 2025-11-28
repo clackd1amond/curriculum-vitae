@@ -1,4 +1,4 @@
-import { CodeXmlIcon, FileDown, Globe2Icon, LanguagesIcon, MailIcon, MapPinIcon } from "lucide-react";
+import { FileDown, Globe2Icon, LanguagesIcon, MailIcon, MapPinIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { RiTelegram2Fill } from "react-icons/ri";
@@ -13,29 +13,16 @@ async function ContactsSection() {
 	return (
 		<SectionWrapper id="contacts">
 			<div className="flex flex-col gap-2 p-4">
-				<ContactItem
-					icon={CodeXmlIcon}
-					text={t.rich("position", {
-						link: chunks => <a href="https://www.malovnycha.com">{chunks}</a>
-					})}
-				/>
 				<ContactItem icon={MapPinIcon} text={t("location")} />
 				<ContactItem icon={LanguagesIcon} text={t("languages")} />
-				<ContactItem
-					icon={MailIcon}
-					text={t.rich("email", {
-						link: chunks => <a href="mailto:yevhenc@malovnycha.com">{chunks}</a>
-					})}
-				/>
+				<ContactItem icon={MailIcon} text={<a href="mailto:contact@yevhendev.com">contact@yevhendev.com</a>} />
 				<ContactItem
 					icon={Globe2Icon}
-					text={t.rich("website", {
-						link: chunks => (
-							<a target="_blank" href="https://www.malovnycha.com">
-								{chunks}
-							</a>
-						)
-					})}
+					text={
+						<a target="_blank" href="https://www.yevhendev.com">
+							yevhendev.com
+						</a>
+					}
 				/>
 				<ContactItem
 					icon={FileDown}

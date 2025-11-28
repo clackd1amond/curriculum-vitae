@@ -21,7 +21,13 @@ function LocaleSwitcher() {
 	};
 
 	return (
-		<Button size="icon" variant="outline" className="font-mono" onClick={handleLocaleChange} disabled={isPending}>
+		<Button
+			size="icon"
+			variant="outline"
+			className="rounded-xl font-mono"
+			onClick={handleLocaleChange}
+			disabled={isPending}
+		>
 			{isPending ? <Spinner /> : newLocale.toLowerCase()}
 		</Button>
 	);

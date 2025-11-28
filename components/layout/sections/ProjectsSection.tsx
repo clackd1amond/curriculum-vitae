@@ -27,7 +27,7 @@ async function ProjectsSection() {
 			title: t("items.thevictory.title"),
 			description: t("items.thevictory.description"),
 			url: "https://thevictory.org.ua",
-			tags: ["WordPress", "TailwindCSS", "One-time donations", "Recurring donations"]
+			tags: ["WordPress", "TailwindCSS", "One-time donations", "Recurring donations", "Custom CRM system"]
 		},
 		{
 			image: samurai,
