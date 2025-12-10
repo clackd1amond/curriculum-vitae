@@ -1,4 +1,4 @@
-import { FileDown, Globe2Icon, LanguagesIcon, MailIcon, MapPinIcon } from "lucide-react";
+import { FileDown, Globe2Icon, LanguagesIcon, MailIcon, MapPinIcon, SmartphoneIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { RiTelegram2Fill } from "react-icons/ri";
@@ -9,13 +9,16 @@ import SectionWrapper from "../SectionWrapper";
 
 async function ContactsSection() {
 	const t = await getTranslations("contacts");
+	const contactEmail = process.env.CONTACT_EMAIL ?? "you@example.com";
+	const contactPhoneDisplay = process.env.CONTACT_PHONE_DISPLAY ?? "+380 XX XXX XX XX";
+	const contactPhoneTel = process.env.CONTACT_PHONE_TEL ?? "+380XXXXXXXXX";
 
 	return (
 		<SectionWrapper id="contacts">
 			<div className="flex flex-col gap-2 p-4">
 				<ContactItem icon={MapPinIcon} text={t("location")} />
 				<ContactItem icon={LanguagesIcon} text={t("languages")} />
-				<ContactItem icon={MailIcon} text={<a href="mailto:contact@yevhendev.com">contact@yevhendev.com</a>} />
+				<ContactItem icon={MailIcon} text={<a href={`mailto:${contactEmail}`}>{contactEmail}</a>} />
 				<ContactItem
 					icon={Globe2Icon}
 					text={
@@ -24,6 +27,7 @@ async function ContactsSection() {
 						</a>
 					}
 				/>
+				<ContactItem icon={SmartphoneIcon} text={<a href={`tel:${contactPhoneTel}`}>{contactPhoneDisplay}</a>} />
 				<ContactItem
 					icon={FileDown}
 					text={t.rich("resume", {
